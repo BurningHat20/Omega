@@ -227,3 +227,134 @@ body {
   margin: 20px 280px;
   text-wrap: wrap;
 }
+
+.section-3 {
+  height: 100%;
+  width: 100%;
+}
+
+.section-3-bg-color {
+  background-color: rgba(235, 246, 255, 1);
+  height: 750px;
+  padding-top: 85px;
+  padding-left: 85px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 100px;
+}
+
+.section-3-one {
+  font-size: 52px;
+  line-height: 68px;
+  font-weight: 700;
+}
+.section-3-two {
+  font-size: 400;
+  font-size: 20px;
+  color: rgba(88, 88, 88, 1);
+  line-height: 32px;
+  margin-top: 30px;
+  margin-right: 170px;
+}
+.section-3-img-section {
+  display: flex;
+  gap: 35px;
+  /* margin-top: 50px; */
+  justify-content: right;
+  margin-right: 100px;
+  margin-top: -210px;
+  margin-bottom: 100px;
+}
+.section-3-img-section img {
+  height: 464px;
+  width: 530px;
+}
+
+.section-4 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4 img {
+  height: 100%;
+  width: auto;
+}
+
+.section-5 {
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(0, 51, 102, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-5 img {
+  height: 100%;
+  width: auto;
+}
+
+.section-5-left {
+  margin: 0px 50px 0px 82px;
+}
+.section-5-left .left-title {
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 400;
+  color: white;
+}
+
+.section-5-left .left-p {
+  margin-top: 20px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* .section-6 {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.section-6-img-1 {
+  margin: 50px 82px;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: auto;
+  left: 50px;
+} */
+
+.section-6 {
+  position: relative; /* To position children absolutely within this section */
+  height: 100%; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.section-6-img-1 {
+  margin: 50px 0px 50px 82px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 80%;
+  z-index: 1; /* Behind the second image */
+}
+
+.section-6-img-2 {
+  position: relative;
+  z-index: 2; /* On top of the background image */
+  margin: auto; /* Center the image */
+  left: -200px;
+  width: 80%; /* Ensure it scales correctly */
+}
